@@ -4,7 +4,6 @@ import java.util.Set;
 
 /** Java Program to check if a array contain the Duplicate within K indices*/
 public class DuplicatewithinKindices {
-
     //Function to find duplicate with in k indices
  static  boolean DuplicateKIndices(int []arr,int k)
     {
@@ -23,7 +22,6 @@ public class DuplicatewithinKindices {
         }
         return  false;
     }
-
     //Driver Program
     public static void main(String[] args)
     {
