@@ -1,5 +1,7 @@
 package Arrays;
 
+//Java program to find Next greater Number
+
 import java.util.Arrays;
 
 public class NextGreaterNumber {
