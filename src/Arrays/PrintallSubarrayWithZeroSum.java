@@ -6,7 +6,7 @@ import java.util.HashMap;
 
 
 
-//User defined class to create Pairs to Store subarray indexes
+//User defined class to create Pairs to Store Subarray indexes
 class Pair {
     int first,second;
     Pair(int a ,int b)
@@ -17,7 +17,7 @@ class Pair {
 }
 public class PrintallSubarrayWithZeroSum {
     //The function is return all subarray with zero sum
-    static  ArrayList<Pair> PrintAllSubarray(int arr[],int n) {
+    private static  ArrayList<Pair> PrintAllSubarray(int arr[], int n) {
         int sum = 0;
         HashMap<Integer, ArrayList<Integer>> hm = new HashMap<>();
         ArrayList<Pair> out = new ArrayList<>();
