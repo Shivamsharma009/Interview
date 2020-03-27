@@ -1,4 +1,6 @@
-class ReverseLinkedList {
+package LinkedList;
+
+public class ReverseLinkedList {
 
     static Node head;
 
@@ -35,7 +37,7 @@ class ReverseLinkedList {
     }
 
     // Driver Program
-     public static void main(String[] args) {
+    public static void main(String[] args) {
         ReverseLinkedList list = new ReverseLinkedList();
         list.head = new Node(1);
         list.head.next = new Node(2);
