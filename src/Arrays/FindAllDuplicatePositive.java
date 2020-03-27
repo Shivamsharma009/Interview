@@ -1,6 +1,5 @@
 package Arrays;
 
-import java.lang.*;
 /**
  * Java Program to find all Duplicates in positive Case it means
  * that Algorithm work on when i have only positive integers

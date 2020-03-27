@@ -1,5 +1,5 @@
 package Arrays;
-import java.io.*;
+
 public class RotateMatrixRightByKtime{
 
     //size of the matrix

@@ -1,7 +1,4 @@
 package Arrays;
-import java.io.*;
-import java.util.Arrays;
-
 // Java program for reversal algorithm of array rotation
 
 class LeftRotation {

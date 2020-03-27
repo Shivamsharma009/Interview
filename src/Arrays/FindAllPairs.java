@@ -1,6 +1,5 @@
 package Arrays;
 
-import java.util.HashMap;
 import java.util.HashSet;
 
 /** java program to find all pairs such that a+b = x **/
