@@ -20,7 +20,7 @@ public class MergeTwoSortedLinkList{
     }
 
 
-    Node push(Node head,int new_data)
+    Node push(int new_data)
     {
         Node temp = new Node(new_data);
         temp.next = head;
@@ -94,14 +94,23 @@ public class MergeTwoSortedLinkList{
         int i;
         int j ;
         for(i = 5 ; i > 0; i = i-2)
-            list1 = mtsl.push(head,i);
+            list1 = mtsl.push(i);
+
+        head = null;
+
+
         for(j = 6; j > 0 ;j = j-2 )
-            list2 = mtsl.push(head,j);
+            list2 = mtsl.push(j);
+
+        head = null;
 
         System.out.println("List 1 elements");
         mtsl.printList(list1);
+
         System.out.println("\nList 2 elements");
         mtsl.printList(list2);
+
+
 
         System.out.println("\nAfter merge Linked List is");
         head  = mtsl.merge(list1,list2);
