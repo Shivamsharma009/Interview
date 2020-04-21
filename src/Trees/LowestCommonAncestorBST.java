@@ -2,20 +2,21 @@ package Trees;
 // Recursive Java program to print lca of two nodes
 
 // A binary tree node
-class Node
-{
-    int data;
-    Node left, right;
 
-    Node(int item)
-    {
-        data = item;
-        left = right = null;
-    }
-}
 
 class LowestCommonAncestorBST
 {
+   static class Node
+    {
+        int data;
+        Node left, right;
+
+        Node(int item)
+        {
+            data = item;
+            left = right = null;
+        }
+    }
     Node root;
 
     /* Function to find LCA of n1 and n2. The function assumes that both
