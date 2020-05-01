@@ -34,7 +34,7 @@ public class AllNodeFromKDistanceFromGivenNode {
             return 0;
         }
 
-
+       //dl --> left Distance
         int dl = printKDistanceFromNode(root.left, target, k);
         if (dl != -1) {
             if (1 + dl == k) {
@@ -45,6 +45,9 @@ public class AllNodeFromKDistanceFromGivenNode {
             }
         }
 
+
+
+        //dr --> right distance
         int dr = printKDistanceFromNode(root.right, target, k);
         if (dr != -1) {
             if (1 + dr == k) {
@@ -79,6 +82,7 @@ public class AllNodeFromKDistanceFromGivenNode {
 
         int k = 3;
 
-        printKDistanceFromNode(root,target,k);
+      printKDistanceFromNode(root,target,k);
+
     }
 }
