@@ -59,7 +59,7 @@ public class MaximumAreaHistogram {
     //Driver Program
     public static void main(String[] args)
     {
-        int arr[] = new int[]{6,2,5,4,5,1,6};
+        int []arr = new int[]{6,2,5,4,5,1,6};
         int n = arr.length;
         MaxAreaHistogram(arr,n);
     }
